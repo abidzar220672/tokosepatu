@@ -11,10 +11,10 @@ nav {
 }
 .logo{
     color: rgb(0, 0, 0); 
-display:flex ;
-  justify-content: center;  /* horizontal */
-  align-items: center;      /* vertikal */
-   padding-top: 10px;
+    display:flex ;
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertikal */
+     padding-top: 10px;
 }
 
 nav .icon {
@@ -30,19 +30,19 @@ nav .icon {
 header {
     background-image: url(img/hero.jpg);
      background-size: cover; 
-  width: 100%;
-  height: 100vh; }
+    width: 100%;
+    height: 100vh; }
 
 .dropdown-icon {
     padding-top: 13px;
     padding-left: 20px;
 }
-.gambar2{
+/* .gambar2{
     grid-column: span 3 / span 3;
     grid-row: span 4 / span 4;
     grid-column-start: 3;
-}
- .category-section {
+} */
+     .category-section {
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
@@ -78,7 +78,7 @@ header {
  /* .product-section {
       padding: 40px;
     } */
-
+/* bagian card product */
     .product-section h2 {
       font-size: 2rem;
       font-weight: 800;
@@ -129,4 +129,45 @@ header {
       font-size: 20px;
       font-weight: bold;
       color: #000;
+    }
+    .promo-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 10px;
+    }
+
+    .promo-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .promo-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .promo-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0));
+      color: #fff;
+    }
+
+    .promo-overlay h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .promo-overlay a {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 2px;
     }
