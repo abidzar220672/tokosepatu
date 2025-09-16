@@ -54,26 +54,9 @@
       border: 1px solid #ccc;
       margin-bottom: 15px;
     }
-
-    .btn-buy {
-      display: block;
-      width: 100%;
-      padding: 12px;
-      background: #000;
-      color: #fff;
-      text-align: center;
-      font-weight: bold;
-      border-radius: 5px;
-      cursor: pointer;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-    }
-
-    .btn-buy:hover {
-      background: #333;
-    }
-
+    
     .shipping-option {
+      margin-top:15px ;
       border: 1px solid #ddd;
       border-radius: 8px;
       padding: 12px;
