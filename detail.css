@@ -35,7 +35,7 @@
       margin-bottom: 10px;
     }
 
-    .price {
+    .hargadetail {
       font-size: 1.5rem;
       font-weight: bold;
       margin: 10px 0;
@@ -54,7 +54,7 @@
       border: 1px solid #ccc;
       margin-bottom: 15px;
     }
-    
+
     .shipping-option {
       margin-top:15px ;
       border: 1px solid #ddd;
